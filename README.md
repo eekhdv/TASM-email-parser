@@ -13,7 +13,6 @@ tlink arcanoid.obj /tdc
 The program asks for the FILENAME of the file to be parsed. 
 After launching, all email addresses from FILENAME will be in the output.txt file 
 
-
 # Problems I faced and solve
 -> When parsing large files (more than 50,000 bytes), you have to read the file in parts, since it is a COM program and only uses 16-bit registers. Hence the problem that email addresses could break when read.
 
