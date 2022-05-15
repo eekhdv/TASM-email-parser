@@ -1,0 +1,8 @@
+# ignore TASM
+*.exe
+*.bat
+
+#ignore compiled files
+*.LST
+*.OBJ
+*.COM
